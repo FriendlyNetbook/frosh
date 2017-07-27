@@ -1,0 +1,17 @@
+<section id="fh5co-intro"  style="background-image: url(/images/{{ .Site.Params.intro.img }}); background-size: cover" data-stellar-background-ratio={{ .Site.Params.hero.parallax }}>
+		<div class="container">
+			<div class="row row-bottom-padded-lg">
+				{{ range .Site.Params.intro.item }}
+				<div class="fh5co-block to-animate">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+              <p> <img src={{ .icon }} height="48"></img> </p>
+						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						<p>{{ .description }}</p>
+					</div>
+				</div>
+				{{ end }}
+      </div>
+    </div>
+</section>

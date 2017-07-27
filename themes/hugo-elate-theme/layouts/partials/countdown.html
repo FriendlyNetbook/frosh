@@ -1,0 +1,165 @@
+<section id="countdown" style="background-image: url(images/{{ .Site.Params.countdown.background }});" data-stellar-background-ratio="0.5">
+		<div class="container">
+			  <div class="row">
+            <div class='wrapper'>
+                <script>
+                 var eventDate = new Date('September 16, 2017 09:00:00 GMT-0700 (PDT)')
+                 var date = new Date();
+                 var diff = new Date(eventDate.getTime() - date.getTime());
+                 var i ;
+
+                 a=document.getElementsByClassName('time-part');
+                 for(i = 0; i < 10; i++){
+                        a.item(0).getElementsByClassName("digit").item(i).innerHTML = diff.getDate()/10 % 1;
+                 }
+
+
+                </script>
+                <div class='time-part-wrapper'>
+                    <div class='time-part days tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part days ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='time-part-wrapper'>
+                    <div class='time-part hours tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part hours ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='time-part-wrapper'>
+                    <div class='time-part minutes tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part minutes ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='time-part-wrapper'>
+                    <div class='time-part seconds tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part seconds ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='time-part-wrapper'>
+                    <div class='time-part hundredths tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part hundredths ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		    </div>
+		</div>
+</section>

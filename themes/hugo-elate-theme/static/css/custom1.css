@@ -1,0 +1,6 @@
+#fh5co-home{
+}
+
+#fh5co-home .gradient {
+    background-image: repeating-linear-gradient(to bottom right, #7b3f75 0%, #c24d67 100%);
+}
