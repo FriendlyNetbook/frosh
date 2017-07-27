@@ -213,6 +213,8 @@ body {
 
 .wrapper {
     display: inline-block;
+  margin: 100px auto;
+  position: relative;
 }
 .wrapper:before, .wrapper:after {
   content: "";
