@@ -26,7 +26,20 @@
         	{{ partial "counters.html" .}}
         {{ end }}
 
-    {{ partial "countdown.html" }}
+         {{ if .Site.Params.work.enable }}
+            {{ partial "work.html" .}}
+        {{ end }}
+        {{ partial "countdown.html" }}
+
+        {{ partial "hero_about_us.html" .}}
+
+ 		{{ if .Site.Params.testimonials.enable }}
+        	{{ partial "testimonials.html" .}}
+		{{ end }}
+        {{ if .Site.Params.sponsorship.enable }}
+            {{ partial "sponsorship.html" .}}
+        {{ end }}
+
 		{{ if .Site.Params.contact.enable }}
         	{{ partial "contact.html" .}}
         {{ end }}

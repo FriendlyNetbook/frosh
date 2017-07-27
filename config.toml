@@ -14,13 +14,15 @@ theme                   = "hugo-elate-theme"
   email                 = ""
   # Navigation
   [params.navigation]
-    brand               = "Elate"
+    brand               = "SFU Frosh 2017"
     home                = "Home"
-    work                = "Work"
-    testimonials        = "Testimonials"
+    work                = "faoidn"
+    testimonials        = "FAQ"
     services            = "Events"
-    about               = "About"
+    about               = "Leaders"
+    aboot               = "About"
     contact             = "Contact"
+    sponsorship         = "Sponsors"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -54,8 +56,8 @@ theme                   = "hugo-elate-theme"
     icon                 = "/images/Icon_Saturn.png"
 
   [[params.intro.item]]
-    button              = "Get Info"
-    description         = "You got Q, we got A - put it together and you got a website"
+    button              = "Itinerary"
+    description         = "things are happen"
     url                 = "#fh5co-services"
     icon                 = "/images/Icon_Jupiter.png"
 
@@ -119,6 +121,122 @@ theme                   = "hugo-elate-theme"
       to                = 149
       interval          = 50
       speed             = 5000
+
+  [params.about]
+    enable = true
+    title = "Executive Team"
+    description = "We are a group of people excited about space exploration, engineering,science and business. We want to be a part of the upcoming space revolution. <a href='team'> <br>Get to know the team. </a>"
+
+    [[params.about.item]]
+      name = "karl"
+      position = "President"
+      description = ""
+      img = "person1.jpg"
+      alt = "Person1"
+
+
+    [[params.about.item]]
+      name = "steven"
+      position = "Vice President"
+      description = ""
+      img = "person2.jpg"
+      alt = "Person2"
+
+
+    [[params.about.item]]
+      name = "rob"
+      position = "CTO"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+
+    [[params.about.item1]]
+      name = "bob"
+      position = "CTO"
+      description = ""
+      img = "person3.jpg"
+      alt = "Person3"
+
+  [params.hero_about_us]
+    title = "About Frosh"
+    subtitle = "Frosh is a welcome event for first year science students and the foundation of SFU’s motto “Engaging the World”. Before the ambitious goal of engaging the world, it is essential to ignite inspiration within SFU. Frosh nurtures an engaged community by connecting and instigating excitement amongst first year students. "
+    img = "MainPage_Main.png"
+
+  [params.testimonials]
+    enable = false
+
+  # Sponsorship section
+  [params.sponsorship]
+    enable = true
+    title = "Sponsorship"
+    description = "Help us make our projects happen. We are looking for collaborations, sponsorship and donations"
+
+    title2 = "Our Sponsors"
+    description2 = ""
+
+  [params.work]
+    enable = true
+    title = "Freaky-Ass Quandries"
+    description = "you're pretty dumb, so we predicted what you would want to ask"
+    footertext = 'haha, idiot'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Why should I go to FROSH?"
+      subtitle = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "What should I bring and wear?"
+      subtitle = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Who can go to FROSH?"
+      subtitle = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "None of my friends are going to frosh, should I go anyways?"
+      subtitle = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
+
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "I don’t want to stay awake all night, will there be a place to sleep?"
+      subtitle = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "I’m a bit shy and don’t know if FROSH is for me."
+      subtitle = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Get in touch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@freehtml5.co"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
 
 
   # Footer section
