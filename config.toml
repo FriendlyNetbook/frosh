@@ -124,8 +124,8 @@ theme                   = "hugo-elate-theme"
 
   [params.about]
     enable = true
-    title = "Executive Team"
-    description = "We are a group of people excited about space exploration, engineering,science and business. We want to be a part of the upcoming space revolution. <a href='team'> <br>Get to know the team. </a>"
+    title = "Fresh Princes of Leadership"
+    description = "excited to control your life for a day"
 
     [[params.about.item]]
       name = "karl"

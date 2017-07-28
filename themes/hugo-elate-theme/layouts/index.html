@@ -14,10 +14,8 @@
 		
     {{ partial "intro.html" .}}
 
+        {{ partial "hero_about_us.html" .}}
 
-		{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
-		{{ end }}
 
     {{ if .Site.Params.services.enable }}
         {{ partial "services.html" .}}
@@ -26,15 +24,17 @@
         	{{ partial "counters.html" .}}
         {{ end }}
 
+        {{ partial "countdown.html" }}
          {{ if .Site.Params.work.enable }}
             {{ partial "work.html" .}}
         {{ end }}
-        {{ partial "countdown.html" }}
 
-        {{ partial "hero_about_us.html" .}}
 
  		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
+		{{ end }}
+		{{ if .Site.Params.about.enable }}
+        	{{ partial "about.html" .}}
 		{{ end }}
         {{ if .Site.Params.sponsorship.enable }}
             {{ partial "sponsorship.html" .}}

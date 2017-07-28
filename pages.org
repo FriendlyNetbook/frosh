@@ -1,5 +1,9 @@
 * about
+** ok
 * faq
+** yis
 * leaders
+** use default theme about
 * sponsors
+** ya
 * contact us
