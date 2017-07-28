@@ -209,7 +209,7 @@
                  a.item(8).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCSeconds()/10-i+1)%6+6)%6).toString();
              }
              for(i = 0; i < 10; i++){
-                 a.item(8).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCSeconds()-i+1)%10+10)%10).toString();
+                 a.item(9).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCSeconds()-i+1)%10+10)%10).toString();
              }
              for(i = 0; i < 6; i++){
                  a.item(10).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCMilliseconds()/10-i+1)%6+6)%6).toString();
