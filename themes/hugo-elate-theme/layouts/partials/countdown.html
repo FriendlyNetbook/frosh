@@ -2,19 +2,34 @@
 		<div class="container">
 			  <div class="row">
             <div class='wrapper'>
-                <script>
-                 var eventDate = new Date('September 16, 2017 09:00:00 GMT-0700 (PDT)')
-                 var date = new Date();
-                 var diff = new Date(eventDate.getTime() - date.getTime());
-                 var i ;
-
-                 a=document.getElementsByClassName('time-part');
-                 for(i = 0; i < 10; i++){
-                        a.item(0).getElementsByClassName("digit").item(i).innerHTML = diff.getDate()/10 % 1;
-                 }
-
-
-                </script>
+                <div class='time-part-wrapper'>
+                    <div class='time-part months tens'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                    <div class='time-part months ones'>
+                        <div class='digit-wrapper'>
+                            <span class='digit'>0</span>
+                            <span class='digit'>9</span>
+                            <span class='digit'>8</span>
+                            <span class='digit'>7</span>
+                            <span class='digit'>6</span>
+                            <span class='digit'>5</span>
+                            <span class='digit'>4</span>
+                            <span class='digit'>3</span>
+                            <span class='digit'>2</span>
+                            <span class='digit'>1</span>
+                            <span class='digit'>0</span>
+                        </div>
+                    </div>
+                </div>
                 <div class='time-part-wrapper'>
                     <div class='time-part days tens'>
                         <div class='digit-wrapper'>
@@ -160,6 +175,51 @@
                     </div>
                 </div>
             </div>
+            <script>
+             var eventDate = new Date('September 29, 2017 9:00:00 GMT-0700 (PDT)')
+             var date = new Date();
+             var diff = new Date(eventDate - date);
+
+             a=document.getElementsByClassName('time-part');
+             for(i = 0; i < 6; i++){
+                 a.item(0).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCMonth()/10-i))).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(1).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCMonth()-i)%10+10)%10).toString();
+             }
+             for(i = 0; i < 6; i++){
+                 a.item(2).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCDate()/10-i+1))).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(3).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCDate()-i)%10+10)%10).toString();
+             }
+             for(i = 0; i < 6; i++){
+                 a.item(4).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCHours()/10-i+1)%6+6)%6).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(5).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCHours()-i+1)%10+10)%10).toString();
+             }
+             for(i = 0; i < 6; i++){
+                 a.item(6).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCMinutes()/10-i+1)%6+6)%6).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(7).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCMinutes()-i+1)%10+10)%10).toString();
+             }
+             for(i = 0; i < 6; i++){
+                 a.item(8).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCSeconds()/10-i+1)%6+6)%6).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(8).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCSeconds()-i+1)%10+10)%10).toString();
+             }
+             for(i = 0; i < 6; i++){
+                 a.item(10).getElementsByClassName("digit").item(i).innerHTML = (Math.floor((diff.getUTCMilliseconds()/10-i+1)%6+6)%6).toString();
+             }
+             for(i = 0; i < 10; i++){
+                 a.item(11).getElementsByClassName("digit").item(i).innerHTML = (((diff.getUTCMilliseconds()-i+1)%10+10)%10).toString();
+             }
+
+
+            </script>
 		    </div>
 		</div>
 </section>
