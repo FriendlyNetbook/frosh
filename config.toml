@@ -222,7 +222,7 @@ theme                   = "hugo-elate-theme"
     enable = true
     map = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "SFU SUS wants your questions"
     
     # Available icons: http://simplelineicons.com/
     details = [
