@@ -10,7 +10,7 @@
 
 .time-part-wrapper {
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 5px;
   position: relative;
 }
 .time-part-wrapper:not(:last-child):after {
@@ -20,14 +20,14 @@
   height: 115px;
   position: absolute;
   top: 0px;
-  right: -15px;
+  right: -5px;
   color: rgba(0, 0, 0, 0.25);
   font-size: 100px;
   line-height: 0.9;
 }
 
 .time-part {
-  width: 70px;
+  width: 60px;
   text-align: center;
   height: 90px;
   overflow: hidden;
@@ -205,11 +205,11 @@
     transform: translateY(-900px);
   }
 }
-body {
-  background: #F1614B;
-  margin: 0;
-  font-family: "Aldrich";
-}
+/* body { */
+/*   background: #F1614B; */
+/*   margin: 0; */
+/*   font-family: "Aldrich"; */
+/* } */
 
 .wrapper {
     display: inline-block;

@@ -68,7 +68,7 @@ theme                   = "hugo-elate-theme"
     icon                 = "/images/Icon_Earth.png"
 
   [params.services]
-    enable              = true
+    enable              = false
     title               = "Events"
     description         = "lots"
 

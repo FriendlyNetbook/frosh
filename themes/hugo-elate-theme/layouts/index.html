@@ -14,17 +14,20 @@
 		
     {{ partial "intro.html" .}}
 
+    {{ partial "blocks.html" .}}
+
         {{ partial "hero_about_us.html" .}}
 
 
     {{ if .Site.Params.services.enable }}
         {{ partial "services.html" .}}
     {{ end }}
+        {{ partial "countdown.html" }}
+        {{ partial "timeline.html" .}}
 		{{ if .Site.Params.counters.enable }}
         	{{ partial "counters.html" .}}
         {{ end }}
 
-        {{ partial "countdown.html" }}
          {{ if .Site.Params.work.enable }}
             {{ partial "work.html" .}}
         {{ end }}

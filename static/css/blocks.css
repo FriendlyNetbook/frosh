@@ -1,0 +1,101 @@
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+    background: #EEE;
+    max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    min-height: 200px;
+    vertical-align: middle;
+    padding: 40px;
+    background: #fff;
+    -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+    z-index: 7;
+    flex-grow: 1;
+    background-size: cover;
+    position: relative;
+    backgroun-repeat: no-repeat;
+}
+
+#fh5co-blocks .grid-item > .overlay-darker {
+    z-index: 8;
+    opacity: .5;
+    background: #474747;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#fh5co-blocks .grid-item > .overlay {
+    background: #fff;
+    opacity: 1;
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#fh5co-blocks .grid-item > .fh5co-text {
+  position: relative;
+  z-index: 10;
+}
+#fh5co-blocks .grid-item > .fh5co-text .fh5co-blocks-icon {
+  font-size: 50px;
+  color: #52d3aa;
+  margin-bottom: 30px;
+  display: block;
+}
+#fh5co-blocks .grid-item h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#fh5co-blocks .grid-item:hover > .overlay, #fh5co-blocks .grid-item:focus > .overlay {
+  opacity: 0;
+  z-index: 9;
+}
+#fh5co-blocks .grid-item:hover > .fh5co-text, #fh5co-blocks .grid-item:focus > .fh5co-text {
+  color: #fff;
+}
+#fh5co-blocks .grid-item:hover > .fh5co-text .fh5co-blocks-icon, #fh5co-blocks .grid-item:focus > .fh5co-text .fh5co-blocks-icon {
+  color: #fff;
+}
+#fh5co-blocks .grid-item:hover h2, #fh5co-blocks .grid-item:focus h2 {
+  color: #fff;
+}
+
+
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
