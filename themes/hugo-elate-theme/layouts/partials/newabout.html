@@ -1,6 +1,8 @@
-<section id="fh5co-newabout" data-section="newabout">
-		<div class="gradient">
+<section id="fh5co-newabout" class="animated" data-section="newabout">
+    <div class="gradient" >
 		    <div class="container">
+            <div class="row row-bottom-padded-sm" ></div>
+            <h1 style="text-align: center; color: #fff">Frequently Asked Questions</h3>
 			      <div class="row row-bottom-padded-sm grid">
 				        {{ range .Site.Params.newabout.item }}
 				        <div class="grid-item">
@@ -9,11 +11,11 @@
 					          <div class="fh5co-text">
 						            <p>{{ .description }}</p>
 					          </div>
-                    {{ if .wide }}
-                    <script>
-                     document.currentScript.parentElement.classList.add('grid-item--bigwidth');
-                    </script>
-                    {{end}}
+                {{ if .wide }}
+                <script>
+                    document.currentScript.parentElement.classList.add('grid-item--bigwidth');
+                </script>
+                {{end}}
 				        </div>
                 {{end}}
             </div>
