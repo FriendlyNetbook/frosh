@@ -8,8 +8,8 @@ function layout() {
       // Thanks to Mark Avery
       // http://stackoverflow.com/questions/8191015/how-do-i-lay-out-my-content-divs-in-a-similar-manner-to-facebook-timeline
       var adjustArticleHeights = (function () {
-        var leftColumnHeight = 0,
-          rightColumnHeight = 100,
+        var leftColumnHeight = 100,
+          rightColumnHeight = 0,
           $articles = $('#fh5co-timeline article');
         for (var i = 0; i < $articles.length; i++) {
 

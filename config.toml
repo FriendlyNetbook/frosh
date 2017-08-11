@@ -11,7 +11,7 @@ theme                   = "hugo-elate-theme"
   # Meta
   author                = ""
   description           = ""
-  email                 = ""
+  email                 = "sfusus@sfusus.ca"
   # Navigation
   [params.navigation]
     brand               = "SFU Frosh 2017"
@@ -67,7 +67,7 @@ theme                   = "hugo-elate-theme"
   [[params.intro.item]]
     button              = "Register"
     description         = "everyone else is coming, if you don't come you're probably a nobody"
-    url                 = "https://www.eventbrite.ca/e/sus-presents-sfu-science-frosh-2017-tickets-36949955311"
+    url                 = "register"
     icon                = "/images/Icon_Earth.png"
 
 # FAQ
@@ -114,15 +114,18 @@ theme                   = "hugo-elate-theme"
 
   # ?????
   [[params.time.item]]
+  image                 = true
+  img                   = "/images/star.png"
+  shade                 = false
+  hasbadge                 = false
+  pad                      = "0%"
+  [[params.time.item]]
   text                  = "Froshees begin to arrive, and register."
   title                 = "Sign-in"
   time                  = "09:00"
   hasbadge              = true
   shade                 = true
 
-  [[params.time.item]]
-  img                   = "/images/Icon_Earth.png"
-  shade                 = true
 
   [[params.time.item]]
   text                  = "Debriefed for the days events"
@@ -137,6 +140,13 @@ theme                   = "hugo-elate-theme"
   time                  = "11:00"
   hasbadge              = true
   shade                 = true
+
+  [[params.time.item]]
+  image                 = true
+  img                   = "/images/star.png"
+  shade                 = false
+  hasbadge                 = false
+  pad                      = "60%"
 
   [[params.time.item]]
   text                  = "asdf"
@@ -158,6 +168,13 @@ theme                   = "hugo-elate-theme"
   time                  = "18:00"
   hasbadge              = true
   shade                 = true
+
+  [[params.time.item]]
+  image                 = true
+  img                   = "/images/star.png"
+  shade                 = false
+  hasbadge                 = false
+  pad                      = "60%"
 
   [[params.time.item]]
   text                  = "asdf"
@@ -342,10 +359,9 @@ theme                   = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details             = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href = "http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Simon Fraser University <br> Vancouver, BC"],
+        ["icon-envelope", "sfusus@sfusus.ca"],
+        ["icon-globe", '<a href = "http://sfusus.ca" target="_blank">sfusus.ca</a>']
       ]
 
     name                = "Name"

@@ -21,10 +21,11 @@
     {{ if .Site.Params.services.enable }}
         {{ partial "services.html" .}}
     {{ end }}
-
+    {{ partial "register.html" }}
     <!--Timeline-->
-    {{ partial "countdown.html" }}
-    {{ partial "timeline.html" .}}
+        {{ partial "timeline.html" .}}
+
+        {{ partial "countdown.html" }}
 
     <!--FAQ-->
     {{ partial "blocks.html" .}}
@@ -41,13 +42,13 @@
         {{ partial "testimonials.html" .}}
     {{ end }}
 
-    <!--Leaders???-->
-    {{ partial "hero_about_us.html" .}}
-
     <!--Guests-->
     {{ if .Site.Params.about.enable }}
         {{ partial "about.html" .}}
     {{ end }}
+    <!--Leaders???-->
+    {{ partial "hero_about_us.html" .}}
+
 
     {{ if .Site.Params.sponsorship.enable }}
         {{ partial "sponsorship.html" .}}

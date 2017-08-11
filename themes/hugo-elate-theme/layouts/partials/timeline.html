@@ -5,11 +5,11 @@
 
 <section id="fh5co-timeline" data-section="timeline">
 		<div class="gradient"></div>
+    <div class="row row-bottom-padded-sm" ></div>
     <div class="wrap" >
     <article>
-        <div style="float: right: ;; height: 100px;"></div>
+        <div style="float: right; height: 50px;"></div>
     </article>
-
 		{{ range .Site.Params.time.item }}
     <article>
         {{ if .hasbadge }}
@@ -23,11 +23,14 @@
             {{ if .shade }}
 				    <div class="overlay"></div>
             {{ end }}
+            {{ if .image }}
+            <img src={{ .img }} style="padding-left: {{ .pad }}"></img>
+            {{ else }}
             <h2>{{ .title }}</h2>
 				    <div class="fh5co-text">
 						    <p>{{ .text }}</p>
 				    </div>
-            <img src={{ .img }}></img>
+            {{end}}
         </div>
     </article>
     {{end}}

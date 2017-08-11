@@ -1,0 +1,31 @@
+#register .text-wrap {
+    height: 150px;
+}
+#register .text-wrap {
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+#register .text-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#register .text-inner a {
+    color: white;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+#register .text-inner a:hover, #register .text-inner a:active, #register .text-inner a:focus {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dashed white;
+}
+#register .text-inner a {
+    font-size: 50px;
+    color: white;
+    margin: 0 0 20px 0;
+}
