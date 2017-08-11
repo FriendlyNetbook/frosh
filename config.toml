@@ -361,7 +361,7 @@ theme                   = "hugo-elate-theme"
     details             = [
         ["icon-home", "Simon Fraser University <br> Vancouver, BC"],
         ["icon-envelope", "sfusus@sfusus.ca"],
-        ["icon-globe", '<a href = "http://sfusus.ca" target="_blank">sfusus.ca</a>']
+        ["icon-globe", '<a href = "http://sfusus.ca" target="_blank" style="font-weight: 400" >sfusus.ca</a>']
       ]
 
     name                = "Name"
