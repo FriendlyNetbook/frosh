@@ -37,6 +37,7 @@ body { font-family: sans-serif; }
 
 .grid-item {
     width: 50%;
+    max-width: 50%;
     float: left;
     text-align: center;
     font-size: 20px;
@@ -107,9 +108,9 @@ body { font-family: sans-serif; }
 
 
 
-.grid-item--width2 { width: 320px; }
-.grid-item--width3 { width: 480px; }
-.grid-item--width4 { width: 640px; }
+.grid-item--width2 { width: 320px; max-width: 320px; }
+.grid-item--width3 { width: 480px; max-width: 480px; }
+.grid-item--width4 { width: 640px; max-width: 640px;}
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }

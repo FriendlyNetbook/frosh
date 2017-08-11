@@ -87,6 +87,11 @@ theme                   = "hugo-elate-theme"
   description          = "gaioenirgaoier nogiaenr ognaoierngoair"
   title                = "afoiafn"
 
+  [[params.time.item]]
+  text          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+  time                 = "12:00"
+
   [params.services]
     enable              = false
     title               = "Events"
