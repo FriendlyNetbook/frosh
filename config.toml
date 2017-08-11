@@ -19,10 +19,12 @@ theme                   = "hugo-elate-theme"
     work                = "FAQ"
     testimonials        = "FAQ"
     services            = "Events"
-    about               = "Leaders"
-    aboot               = "About"
+    about               = "Faculty Guests"
+    aboot               = "Frosh Leaders"
     contact             = "Contact"
     sponsorship         = "Sponsors"
+    blocks              = "FAQ"
+    timeline            = "Itinerary"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -238,7 +240,7 @@ theme                   = "hugo-elate-theme"
     description2 = ""
 
   [params.work]
-    enable = true
+    enable = false
     title = "Freaky-Ass Quandries"
     description = "you're pretty dumb, so we predicted what you would want to ask"
     footertext = 'haha, idiot'
