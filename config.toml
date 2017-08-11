@@ -67,6 +67,26 @@ theme                   = "hugo-elate-theme"
     url                 = "#"
     icon                 = "/images/Icon_Earth.png"
 
+  [[params.block.item]]
+  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+
+  [[params.block.item]]
+  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+
+  [[params.block.item]]
+  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+
+  [[params.block.item]]
+  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+
+  [[params.block.item]]
+  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  title                = "afoiafn"
+
   [params.services]
     enable              = false
     title               = "Events"
