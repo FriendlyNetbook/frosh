@@ -11,47 +11,58 @@
         {{ partial "nav.html" .}}
 
 		{{ partial "hero.html" .}}
-		
+    <!--Intro-->
     {{ partial "intro.html" .}}
 
-    {{ partial "blocks.html" .}}
-
+    <!--About FROSH-->
     {{ partial "newabout.html" .}}
-        {{ partial "hero_about_us.html" .}}
 
 
     {{ if .Site.Params.services.enable }}
         {{ partial "services.html" .}}
     {{ end }}
-        {{ partial "countdown.html" }}
-        {{ partial "timeline.html" .}}
-		{{ if .Site.Params.counters.enable }}
-        	{{ partial "counters.html" .}}
-        {{ end }}
 
-         {{ if .Site.Params.work.enable }}
-            {{ partial "work.html" .}}
-        {{ end }}
+    <!--Timeline-->
+    {{ partial "countdown.html" }}
+    {{ partial "timeline.html" .}}
 
+    <!--FAQ-->
+    {{ partial "blocks.html" .}}
 
- 		{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
-		{{ end }}
-		{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
-		{{ end }}
-        {{ if .Site.Params.sponsorship.enable }}
-            {{ partial "sponsorship.html" .}}
-        {{ end }}
+    {{ if .Site.Params.counters.enable }}
+        {{ partial "counters.html" .}}
+    {{ end }}
 
-		{{ if .Site.Params.contact.enable }}
-        	{{ partial "contact.html" .}}
-        {{ end }}
+    {{ if .Site.Params.work.enable }}
+        {{ partial "work.html" .}}
+    {{ end }}
 
-        {{ if .Site.Params.footer.enable }}
-        	{{ partial "footer.html" .}}
-        {{ end }}
+    {{ if .Site.Params.testimonials.enable }}
+        {{ partial "testimonials.html" .}}
+    {{ end }}
 
-        {{ partial "js.html" .}}
+    <!--Leaders???-->
+    {{ partial "hero_about_us.html" .}}
+
+    <!--Guests-->
+    {{ if .Site.Params.about.enable }}
+        {{ partial "about.html" .}}
+    {{ end }}
+
+    {{ if .Site.Params.sponsorship.enable }}
+        {{ partial "sponsorship.html" .}}
+    {{ end }}
+
+    <!--Contact form-->
+    {{ if .Site.Params.contact.enable }}
+    	{{ partial "contact.html" .}}
+    {{ end }}
+
+    <!--Footer-->
+    {{ if .Site.Params.footer.enable }}
+    	{{ partial "footer.html" .}}
+    {{ end }}
+
+    {{ partial "js.html" .}}
     </body>
 </html>

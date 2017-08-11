@@ -94,7 +94,9 @@ theme                   = "hugo-elate-theme"
   description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
   title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
 
+# About section
   [[params.newabout.item]]
+<<<<<<< HEAD
   description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
   title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
   wide                  = true
@@ -106,6 +108,23 @@ theme                   = "hugo-elate-theme"
   description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
   title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
   wide                  = false
+=======
+  description          = "Science FROSH 2017 is the official welcome event for incoming SFU Faculty of Science students. Students will have an opportunity to create lasting friendships, memories and become part of the lively SFU community. FROSH leaders will guide Froshee’s through 24 hours of chanting, camaraderie and unforgettable activities. Don’t miss out on this classic university experience, you can only be a Froshee once!"
+  #description1         = "FROSH kicks-off with chanting and dancing at the opening ceremonies. Our carefully selected FROSH leaders lead the four houses: Currie, Newton, Darwin, and Einstein to establish the level of enthusiasm that sets the tone for the rest of the event. A three hour scavenger follows. Exploring the corners of SFU’s campus challenges every teams’ wits, physical endurance, and communication as they win points for their house. After this team building marathon, Froshies have a chance to get casual with professors over a slice of pizza. The last hours of sunshine are enjoyed with games of ‘capture the lubed watermelon’, an alternative and messier version of the classic game ‘capture the flag’. After dinner and trivia, attendees are led to a club-like scene with a DJ, black-lights and hours of dancing supplied by the energy from peers that have become best friends."
+  title                = ""
+  wide                 = true
+
+  [[params.newabout.item]]
+  title                = "What's Included?"
+  description          = "Tickets include 24 hours of activities, food (lunch, dinner, breakfast, and snacks), a swagbag which will include your very own frosh 2017 t-shirt, and more!"
+  wide                 = false
+
+  [[params.newabout.item]]
+  title                = "Ticket Info"
+  description          = "Tickets cost $40.00 and are available for purchase through Eventbrite via credit card or PayPal. Tickets are on sale between 12:00 August 14th - 18:00 September 15th."
+  wide                 = false
+
+>>>>>>> 5e7a0ca7bd8a936c0775f4007b28053358e7731d
   # ?????
   [[params.time.item]]
   text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
