@@ -18,11 +18,12 @@
                     <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
 
 
+                    <li><a href="#" data-nav-section="newabout"><span>{{ with .Site.Params.navigation.newabout }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="timeline"><span>{{ with .Site.Params.navigation.timeline }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    
                     <li><a href="#" data-nav-section="blocks"><span>{{ with .Site.Params.navigation.blocks }}{{ . | markdownify }}{{ end }}</span></a></li> 
 
-                    <li><a href="/" data-nav-section="aboot"><span>{{ with .Site.Params.navigation.aboot }}{{ . | markdownify }}{{ end }}</span></a></li>
 
-                    <li><a href="/" data-nav-section="timeline"><span>{{ with .Site.Params.navigation.timeline }}{{ . | markdownify }}{{ end }}</span></a></li>
                     
                     {{ if .Site.Params.services.enable }}
                     <li><a href="#" data-nav-section='services'><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li> 
@@ -32,6 +33,7 @@
                     <li><a href="#" data-nav-section="blocks"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
+                    <li><a href="/" data-nav-section="aboot"><span>{{ with .Site.Params.navigation.aboot }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ if .Site.Params.about.enable }}
                     <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
