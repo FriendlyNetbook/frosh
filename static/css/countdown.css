@@ -9,7 +9,7 @@
 }
 
 .pretext {
-    display: block;
+    display: inline-block;
     font-size: 90px;
     color: rgba(0, 0, 0, 0.55);
     height: 90px;

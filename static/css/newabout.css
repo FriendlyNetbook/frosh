@@ -1,6 +1,5 @@
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
 
 #fh5co-newabout .gradient {
     height: 50%;
@@ -19,7 +18,7 @@ body { font-family: sans-serif; }
 }
 /* ---- grid ---- */
 
-.grid {
+#fh5co-newabout .grid {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -35,7 +34,7 @@ body { font-family: sans-serif; }
 
 /* actual newabout */
 
-.grid-item {
+#fh5co-newabout .grid-item {
     width: 50%;
     max-width: 50%;
     float: left;
