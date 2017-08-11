@@ -67,26 +67,32 @@ theme                   = "hugo-elate-theme"
     url                 = "#"
     icon                 = "/images/Icon_Earth.png"
 
+# FAQ
   [[params.block.item]]
-  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
-  title                = "afoiafn"
+  description          = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
+  title                = "Why should I go to FROSH?"
 
   [[params.block.item]]
-  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
-  title                = "afoiafn"
+  description          = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
+  title                = "Who can go to FROSH?"
 
   [[params.block.item]]
-  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
-  title                = "afoiafn"
+  description          = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
+  title                = "None of my friends are going to frosh, should I go anyways?"
 
   [[params.block.item]]
-  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
-  title                = "afoiafn"
+  description          = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
+  title                = "What should I bring and wear?"
 
   [[params.block.item]]
-  description          = "gaioenirgaoier nogiaenr ognaoierngoair"
-  title                = "afoiafn"
+  description          = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
+  title                = "I’m a bit shy and don’t know if FROSH is for me."
 
+  [[params.block.item]]
+  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
+
+  # ?????
   [[params.time.item]]
   text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
   title                = "afoiafn"
@@ -201,9 +207,10 @@ theme                   = "hugo-elate-theme"
       img = "person3.jpg"
       alt = "Person3"
 
+  # About FROSH
   [params.hero_about_us]
     title = "About Frosh"
-    subtitle = "Frosh is a welcome event for first year science students and the foundation of SFU’s motto “Engaging the World”. Before the ambitious goal of engaging the world, it is essential to ignite inspiration within SFU. Frosh nurtures an engaged community by connecting and instigating excitement amongst first year students. "
+    subtitle = "Science FROSH 2017 is the official welcome event for incoming SFU Faculty of Science students. Students will have an opportunity to create lasting friendships, memories and become part of the lively SFU community. FROSH leaders will guide Froshee’s through 24 hours of chanting, camaraderie and unforgettable activities. Don’t miss out on this classic university experience, you can only be a Froshee once!"
     img = "MainPage_Main.png"
 
   [params.testimonials]
