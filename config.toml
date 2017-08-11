@@ -92,6 +92,18 @@ theme                   = "hugo-elate-theme"
   description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
   title                = "I don’t want to stay awake all night, will there be a place to sleep?"
 
+  [[params.newabout.item]]
+  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                 = true
+  [[params.newabout.item]]
+  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                 = false
+  [[params.newabout.item]]
+  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                 = false
   # ?????
   [[params.time.item]]
   text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"

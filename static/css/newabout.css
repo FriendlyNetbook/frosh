@@ -1,8 +1,5 @@
-* { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
-
-#fh5co-blocks .gradient {
+#fh5co-newabout .gradient {
     height: 100%;
   z-index: 2;
   opacity: .9;
@@ -19,7 +16,7 @@ body { font-family: sans-serif; }
 }
 /* ---- grid ---- */
 
-#fh5co-blocks .grid {
+#fh5co-newabout .grid {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -33,9 +30,9 @@ body { font-family: sans-serif; }
 }
 
 
-/* actual blocks */
+/* actual newabout */
 
-#fh5co-blocks .grid-item {
+#fh5co-newabout .grid-item {
     width: 50%;
     max-width: 50%;
     float: left;
@@ -57,7 +54,7 @@ body { font-family: sans-serif; }
     backgroun-repeat: no-repeat;
 }
 
-#fh5co-blocks .grid-item > .overlay {
+#fh5co-newabout .grid-item > .overlay {
     background: #474747;
     opacity: 0;
     z-index: 9;
@@ -71,29 +68,31 @@ body { font-family: sans-serif; }
     transition: 0.5s;
 }
 
-#fh5co-blocks .grid-item > .fh5co-text {
+#fh5co-newabout .grid-item > .fh5co-text {
   position: relative;
   z-index: 10;
   color: #fff;
   text-align:left;
   margin: 00px 20px 0px 20px;
 }
-#fh5co-blocks .grid-item > .fh5co-text .fh5co-blocks-icon {
+#fh5co-newabout .grid-item > .fh5co-text .fh5co-newabout-icon {
   font-size: 50px;
   color: #52d3aa;
   margin-bottom: 30px;
   display: block;
 }
-#fh5co-blocks .grid-item h2 {
+#fh5co-newabout .grid-item h2 {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
   text-align: left;
   margin: 20px 20px 0px 20px;
 }
-#fh5co-blocks .grid-item:hover > .overlay, #fh5co-blocks .grid-item:focus > .overlay {
+#fh5co-newabout .grid-item:hover > .overlay, #fh5co-newabout .grid-item:focus > .overlay {
   opacity: 0.5;
   z-index: 9;
 }
 
+#fh5co-newabout .grid-item--bigwidth { width: 100%; max-width: 100%; }
+#fh5co-newabout .grid-item--smallwidth { width: 50%; max-width: 50%; }
 
