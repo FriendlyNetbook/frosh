@@ -1,7 +1,9 @@
 * { box-sizing: border-box; }
 
-#fh5co-newabout .gradient {
-    height: 50%;
+body { font-family: sans-serif; }
+
+#fh5co-blocks .gradient {
+    height: 100%;
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
@@ -17,7 +19,7 @@
 }
 /* ---- grid ---- */
 
-#fh5co-newabout .grid {
+.grid {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -31,9 +33,9 @@
 }
 
 
-/* actual newabout */
+/* actual blocks */
 
-#fh5co-newabout .grid-item {
+.grid-item {
     width: 50%;
     max-width: 50%;
     float: left;
@@ -55,8 +57,18 @@
     backgroun-repeat: no-repeat;
 }
 
-#fh5co-newabout .grid-item > .overlay {
-    background: #def;
+#fh5co-blocks .grid-item > .overlay-darker {
+    z-index: 8;
+    opacity: 0;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#fh5co-blocks .grid-item > .overlay {
+    background: #474747;
     opacity: 0;
     z-index: 9;
     position: absolute;
@@ -69,29 +81,37 @@
     transition: 0.5s;
 }
 
-#fh5co-newabout .grid-item > .fh5co-text {
+#fh5co-blocks .grid-item > .fh5co-text {
   position: relative;
   z-index: 10;
-  color: #494949;
+  color: #fff;
   text-align:left;
   margin: 00px 20px 0px 20px;
 }
-#fh5co-newabout .grid-item > .fh5co-text .fh5co-newabout-icon {
+#fh5co-blocks .grid-item > .fh5co-text .fh5co-blocks-icon {
   font-size: 50px;
   color: #52d3aa;
   margin-bottom: 30px;
   display: block;
 }
-#fh5co-newabout .grid-item h2 {
+#fh5co-blocks .grid-item h2 {
   font-size: 24px;
   font-weight: 400;
-  color: #494949;
+  color: #fff;
   text-align: left;
   margin: 20px 20px 0px 20px;
 }
-#fh5co-newabout .grid-item:hover > .overlay, #fh5co-newabout .grid-item:focus > .overlay {
+#fh5co-blocks .grid-item:hover > .overlay, #fh5co-blocks .grid-item:focus > .overlay {
   opacity: 0.5;
   z-index: 9;
 }
 
-#fh5co-newabout .grid-item--bigwidth { width: 100%; max-width: 100%; }
+
+
+.grid-item--width2 { width: 320px; max-width: 320px; }
+.grid-item--width3 { width: 480px; max-width: 480px; }
+.grid-item--width4 { width: 640px; max-width: 640px;}
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
