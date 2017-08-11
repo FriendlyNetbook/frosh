@@ -1,8 +1,7 @@
 <section id="fh5co-newabout" class="animated" data-section="newabout">
-    <div class="gradient" >
 		    <div class="container">
             <div class="row row-bottom-padded-sm" ></div>
-            <h1 style="text-align: center; color: #fff">Frequently Asked Questions</h3>
+            <h1 style="text-align: center; color: #494949">About FROSH</h3>
 			      <div class="row row-bottom-padded-sm grid">
 				        {{ range .Site.Params.newabout.item }}
 				        <div class="grid-item">
@@ -10,6 +9,8 @@
                     <h2>{{ .title }}</h2>
 					          <div class="fh5co-text">
 						            <p>{{ .description }}</p>
+                                                            <p>{{ .description1 }}</p>
+                                                            <p>{{ .description2 }}</p>
 					          </div>
                 {{ if .wide }}
                 <script>
@@ -19,7 +20,6 @@
 				        </div>
                 {{end}}
             </div>
-        </div>
     </div>
 </section>
 
