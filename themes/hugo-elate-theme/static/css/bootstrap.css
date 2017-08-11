@@ -4785,6 +4785,7 @@ tbody.collapse.in {
   font-size: 18px;
   line-height: 20px;
   height: 55px;
+  display: none;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;

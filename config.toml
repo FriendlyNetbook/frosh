@@ -49,87 +49,87 @@ theme                   = "hugo-elate-theme"
     parallax            = 0.4
 
   [params.intro]
-  img='GirlsTag.jpg'
+  img                   = 'GirlsTag.jpg'
 
   [[params.intro.item]]
     button              = "About"
     description         = "The SFU Science frosh has a deep, storied history."
     url                 = "#"
-    icon                 = "/images/Icon_Saturn.png"
+    icon                = "/images/Icon_Saturn.png"
 
   [[params.intro.item]]
     button              = "Itinerary"
     description         = "things are happen"
     url                 = "#fh5co-services"
-    icon                 = "/images/Icon_Jupiter.png"
+    icon                = "/images/Icon_Jupiter.png"
 
   [[params.intro.item]]
     button              = "Register"
     description         = "everyone else is coming, if you don't come you're probably a nobody"
     url                 = "#"
-    icon                 = "/images/Icon_Earth.png"
+    icon                = "/images/Icon_Earth.png"
 
 # FAQ
   [[params.block.item]]
-  description          = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
-  title                = "Why should I go to FROSH?"
+  description           = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
+  title                 = "Why should I go to FROSH?"
 
   [[params.block.item]]
-  description          = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
-  title                = "Who can go to FROSH?"
+  description           = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
+  title                 = "Who can go to FROSH?"
 
   [[params.block.item]]
-  description          = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
-  title                = "None of my friends are going to frosh, should I go anyways?"
+  description           = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
+  title                 = "None of my friends are going to frosh, should I go anyways?"
 
   [[params.block.item]]
-  description          = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
-  title                = "What should I bring and wear?"
+  description           = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
+  title                 = "What should I bring and wear?"
 
   [[params.block.item]]
-  description          = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
-  title                = "I’m a bit shy and don’t know if FROSH is for me."
+  description           = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
+  title                 = "I’m a bit shy and don’t know if FROSH is for me."
 
   [[params.block.item]]
-  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
-  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
+  description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
 
   [[params.newabout.item]]
-  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
-  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
-  wide                 = true
+  description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                  = true
   [[params.newabout.item]]
-  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
-  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
-  wide                 = false
+  description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                  = false
   [[params.newabout.item]]
-  description          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
-  title                = "I don’t want to stay awake all night, will there be a place to sleep?"
-  wide                 = false
+  description           = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+  title                 = "I don’t want to stay awake all night, will there be a place to sleep?"
+  wide                  = false
   # ?????
   [[params.time.item]]
-  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                = "afoiafn"
-  time                 = "12:00"
-  hasbadge             = true
-  shade                = true
+  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
+  title                 = "afoiafn"
+  time                  = "12:00"
+  hasbadge              = true
+  shade                 = true
 
   [[params.time.item]]
-  img                 = "/images/Icon_Earth.png"
-  shade                = true
+  img                   = "/images/Icon_Earth.png"
+  shade                 = true
 
   [[params.time.item]]
-  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                = "afoiafn"
-  time                 = "12:00"
-  hasbadge             = true
-  shade                = true
+  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
+  title                 = "afoiafn"
+  time                  = "12:00"
+  hasbadge              = true
+  shade                 = true
   [[params.time.item]]
-  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                = "afoiafn"
-  time                 = "12:00"
-  hasbadge             = true
-  shade                = true
+  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
+  title                 = "afoiafn"
+  time                  = "12:00"
+  hasbadge              = true
+  shade                 = true
 
   [params.services]
     enable              = false
@@ -139,17 +139,17 @@ theme                   = "hugo-elate-theme"
   [[params.services.item]]
     title               = "hello"
     description         = "1234"
-    icon                 = "Icon_Earth.png"
+    icon                = "Icon_Earth.png"
 
   [[params.services.item]]
     title               = "hell"
     description         = "124"
-    icon                 = "Icon_Earth.png"
+    icon                = "Icon_Earth.png"
 
   [[params.services.item]]
     title               = "hel"
     description         = "12"
-    icon                 = "Icon_Earth.png"
+    icon                = "Icon_Earth.png"
 
   [params.countdown]
     enable              = true
@@ -187,121 +187,127 @@ theme                   = "hugo-elate-theme"
       speed             = 5000
 
   [params.about]
-    enable = true
-    title = "Fresh Princes of Leadership"
-    description = "excited to control your life for a day"
+    enable              = true
+    title               = "Faculty Lunch Guests"
+    description         = "meet'em, greet'em, feel inadequate"
 
     [[params.about.item]]
-      name = "karl"
-      position = "President"
-      description = ""
-      img = "person1.jpg"
-      alt = "Person1"
-
-
-    [[params.about.item]]
-      name = "steven"
-      position = "Vice President"
-      description = ""
-      img = "person2.jpg"
-      alt = "Person2"
-
+      name              = "Natalia Kouzniak"
+      position          = "Mathematics Faculty"
+      description       = ""
+      img               = "images/fac/natalia.jpg"
+      alt               = "Nabyl"
 
     [[params.about.item]]
-      name = "rob"
-      position = "CTO"
-      description = ""
-      img = "person3.jpg"
-      alt = "Person3"
+      name              = "Gary Mund"
+      position          = "Chemistry Faculty"
+      description       = ""
+      img               = "images/fac/gary.png"
+      alt               = "Nabyl"
+
+    [[params.about.item]]
+      name              = "Nabyl Merbouh"
+      position          = "Chemistry Faculty"
+      description       = ""
+      img               = "images/fac/nabyl.png"
+      alt               = "Nabyl"
 
     [[params.about.item1]]
-      name = "bob"
-      position = "CTO"
-      description = ""
-      img = "person3.jpg"
-      alt = "Person3"
+      name              = "Kevin Lam"
+      position          = "Biology Faculty"
+      description       = ""
+      img               = "images/fac/kevin.jpg"
+      alt               = "Nabyl"
+
+    [[params.about.item1]]
+      name              = "Irina Kovalyova"
+      position          = "Microbiology and Biochemistry Faculty"
+      description       = ""
+      img               = "images/fac/irina.jpg"
+      alt               = "Nabyl"
+
 
   # About FROSH
   [params.hero_about_us]
-    title = "About Frosh"
-    subtitle = "Science FROSH 2017 is the official welcome event for incoming SFU Faculty of Science students. Students will have an opportunity to create lasting friendships, memories and become part of the lively SFU community. FROSH leaders will guide Froshee’s through 24 hours of chanting, camaraderie and unforgettable activities. Don’t miss out on this classic university experience, you can only be a Froshee once!"
-    img = "MainPage_Main.png"
+    title               = "About Frosh"
+    subtitle            = "Science FROSH 2017 is the official welcome event for incoming SFU Faculty of Science students. Students will have an opportunity to create lasting friendships, memories and become part of the lively SFU community. FROSH leaders will guide Froshee’s through 24 hours of chanting, camaraderie and unforgettable activities. Don’t miss out on this classic university experience, you can only be a Froshee once!"
+    img                 = "MainPage_Main.png"
 
   [params.testimonials]
-    enable = false
+    enable              = false
 
   # Sponsorship section
   [params.sponsorship]
-    enable = true
-    title = "Sponsorship"
-    description = "Help us make our projects happen. We are looking for collaborations, sponsorship and donations"
+    enable              = true
+    title               = "Sponsorship"
+    description         = "Help us make our projects happen. We are looking for collaborations, sponsorship and donations"
 
-    title2 = "Our Sponsors"
-    description2 = ""
+    title2              = "Our Sponsors"
+    description2        = ""
 
   [params.work]
-    enable = false
-    title = "Freaky-Ass Quandries"
-    description = "you're pretty dumb, so we predicted what you would want to ask"
-    footertext = 'haha, idiot'
+    enable              = false
+    title               = "Freaky-Ass Quandries"
+    description         = "you're pretty dumb, so we predicted what you would want to ask"
+    footertext          = 'haha, idiot'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Why should I go to FROSH?"
-      subtitle = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
+      img               = "work_1.jpg"
+      alt               = "Image2"
+      title             = "Why should I go to FROSH?"
+      subtitle          = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "What should I bring and wear?"
-      subtitle = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
+      img               = "work_2.jpg"
+      alt               = "Image2"
+      title             = "What should I bring and wear?"
+      subtitle          = "Wear comfortable athletic shoes and clothes that you are not afraid to get messy or potentially ruined. Bring suitable attire for the weather (eg. sunglasses, sunscreen, rain jacket, etc) and a change of clothes. Snacks, and a pillow or sleeping bag if you intend on sleeping are recommended."
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Who can go to FROSH?"
-      subtitle = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
+      img               = "work_2.jpg"
+      alt               = "Image2"
+      title             = "Who can go to FROSH?"
+      subtitle          = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "None of my friends are going to frosh, should I go anyways?"
-      subtitle = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
+      img               = "work_2.jpg"
+      alt               = "Image2"
+      title             = "None of my friends are going to frosh, should I go anyways?"
+      subtitle          = "Absolutely! One of the major points of Science Frosh is to meet your best friends! Froshees will all be sorted into groups prior to the event so don’t worry about trying to find a group of people to be with."
 
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "I don’t want to stay awake all night, will there be a place to sleep?"
-      subtitle = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
+      img               = "work_2.jpg"
+      alt               = "Image2"
+      title             = "I don’t want to stay awake all night, will there be a place to sleep?"
+      subtitle          = "Yes, we will have a designated sleeping area away from the noise where you can sleep safely and soundly."
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "I’m a bit shy and don’t know if FROSH is for me."
-      subtitle = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
+      img               = "work_2.jpg"
+      alt               = "Image2"
+      title             = "I’m a bit shy and don’t know if FROSH is for me."
+      subtitle          = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
 
   # Contact section
   [params.contact]
-    enable = true
-    map = true
-    title = "Get in touch"
-    description = "SFU SUS wants your questions"
+    enable              = true
+    map                 = true
+    title               = "Get in touch"
+    description         = "SFU SUS wants your questions"
     
     # Available icons: http://simplelineicons.com/
-    details = [
+    details             = [
         ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
         ["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-globe", '<a href = "http://freehtml5.co/" target="_blank">freehtml5.co</a>']
       ]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    name                = "Name"
+    email               = "Email"
+    phone               = "Phone"
+    message             = "Message"
+    button              = "Send message"
 
 
   # Footer section

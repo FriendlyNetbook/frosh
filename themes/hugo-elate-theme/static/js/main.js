@@ -146,6 +146,36 @@
 		});
 	};
 
+	// Animations
+	// Home
+
+	var whomAnimate = function() {
+		if ( $('#fh5co-whom').length > 0 ) {	
+
+			$('#fh5co-whom').waypoint( function( direction ) {
+										
+				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+
+					setTimeout(function() {
+						$('#fh5co-whom .to-animate').each(function( k ) {
+							var el = $(this);
+							
+							setTimeout ( function () {
+								el.addClass('fadeInUp animated');
+							},  k * 200, 'easeInOutExpo' );
+							
+						});
+					}, 200);
+
+					
+					$(this.element).addClass('animated');
+						
+				}
+			} , { offset: '80%' } );
+
+		}
+	};
 
 
 	// Animations
@@ -459,6 +489,7 @@
 
 		// Animations
 		homeAnimate();
+		whomAnimate();
 		introAnimate();
 		workAnimate();
 		testimonialAnimate();
