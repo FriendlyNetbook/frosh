@@ -88,9 +88,28 @@ theme                   = "hugo-elate-theme"
   title                = "afoiafn"
 
   [[params.time.item]]
-  text          = "gaioenirgaoier nogiaenr ognaoierngoair"
+  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
   title                = "afoiafn"
   time                 = "12:00"
+  hasbadge             = true
+  shade                = true
+
+  [[params.time.item]]
+  img                 = "/images/Icon_Earth.png"
+  shade                = true
+
+  [[params.time.item]]
+  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
+  title                = "afoiafn"
+  time                 = "12:00"
+  hasbadge             = true
+  shade                = true
+  [[params.time.item]]
+  text          = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
+  title                = "afoiafn"
+  time                 = "12:00"
+  hasbadge             = true
+  shade                = true
 
   [params.services]
     enable              = false

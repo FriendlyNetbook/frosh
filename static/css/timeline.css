@@ -1,3 +1,22 @@
+#fh5co-timeline .gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  opacity: .9;
+  -webkit-backface-visibility: hidden;
+  background-color: #0D2747;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+}
     #fh5co-timeline {
       display: block;
       position: relative;
@@ -7,7 +26,7 @@
       display: block;
       position: relative;
       float: left;
-      clear: left;      
+      clear: left;
       width: 50%;
     }
     #fh5co-timeline article.right {
@@ -26,12 +45,11 @@
     position: absolute;
     
     top: 40px;
-		bottom: 0px;
+		bottom: 40px;
 		left: 50%;
 		
 		width: 3px;
     margin-left: -1.5px;
-    
 		background-color: #eeeeee;
 	}
 
@@ -40,9 +58,6 @@
 	  #fh5co-timeline article div.content{
 		position: relative; 
  		float: right;   
-    
-		border: 1px solid #d4d4d4;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);    
     
     width: 60%;   
     padding: 10px;
@@ -64,52 +79,16 @@
 		}
 
 
-/* ARROWS */
-		#fh5co-timeline article div.content:before {
-			position: absolute;
-			top: 10px;
-			right: -15px;
-			display: inline-block;
-			border-top: 15px solid transparent;
-			border-left: 15px solid #ccc;
-			border-right: 0 solid #ccc;
-			border-bottom: 15px solid transparent;
-			content: " ";
-		}
-		#fh5co-timeline article.right div.content:before {
-			border-left-width: 0;
-			border-right-width: 15px;
-			left: -15px;
-			right: auto;
-		}
-
-		#fh5co-timeline article div.content:after {
-			position: absolute;
-			top: 11px;
-			right: -13.7px;
-			display: inline-block;
-			border-top: 14px solid transparent;
-			border-left: 14px solid #fff;
-			border-right: 0 solid #fff;
-			border-bottom: 14px solid transparent;
-			content: " ";		
-		}
-		#fh5co-timeline article.right div.content:after {
-			border-left-width: 0;
-			border-right-width: 15px;
-			left: -14px;
-			right: auto;
-		}
-
 /* BADGE */
 	  #fh5co-timeline article .badge a {
 		text-decoration: none;
 		color: inherit;
 	}
 	  #fh5co-timeline article .badge {
+        background-color: transparent;
     position: absolute;
     top: 50px;
-		right: 5px;
+		right: 10px;
 		z-index: 100; 
     
 		width: 75px;
@@ -122,24 +101,57 @@
 		cursor: default;
 	}
 		#fh5co-timeline article.right .badge{
-			left: 5px;
+			left: 10px;
 		}
 
 	  #fh5co-timeline article .badge:after{
 		content: ' ';
 		display: block;				
 		position: absolute;
-		top: 11px;
-		right: -13px;
-    		z-index: 10;
-    
-		width: 8px;
-		height: 8px;
+		top: 27px;
+		right: -20px;
+    z-index: 10;
+
+		width: 20px;
+		height: 1px;
     
 		background: #fff;
-		border-radius: 10px;
-		border: 4px solid #eeeeee;
+		border: 2px solid #eeeeee;
 	}
 		#fh5co-timeline article.right > .badge:after{
-			left: -13px;
+			left: -20px;
 		}
+    #fh5co-timeline .content > .fh5co-text {
+        position: relative;
+        z-index: 10;
+        color: #fff;
+        text-align:left;
+        margin: 5px 5px 0px 5px;
+    }
+
+    #fh5co-timeline .content h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+        text-align: left;
+        margin: 5px 5px 0px 5px;
+    }
+
+    #fh5co-timeline .content > .overlay {
+        background: #474747;
+        opacity: 0;
+        z-index: 9;
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    #fh5co-timeline .content:hover > .overlay, #fh5co-timeline .content:focus > .overlay {
+        opacity: 0.5;
+        z-index: 9;
+    }

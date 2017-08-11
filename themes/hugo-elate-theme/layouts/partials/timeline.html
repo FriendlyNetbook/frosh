@@ -4,28 +4,34 @@
 
 
 <section id="fh5co-timeline" data-section="time">
+    <div class="wrap" >
+		<div class="gradient"></div>
     <article>
-        <div style="float: right: ;; height: 110px;"></div>
+        <div style="float: right: ;; height: 100px;"></div>
     </article>
 
 		{{ range .Site.Params.time.item }}
     <article>
-    <div class="badge">
-        <a name="aaa">
-            {{ .time }}
-        </a>
-    </div>
-    <div class="content">
-        <h3>{{ .title }}</h3>
-        <div>
-            {{ .img }}
+        {{ if .hasbadge }}
+        <div class="badge">
+            <a name="a">
+                {{ .time }}
+            </a>
         </div>
-        <div>
-            {{ .text }}
+        {{ end }}
+        <div class="content">
+            {{ if .shade }}
+				    <div class="overlay"></div>
+            {{ end }}
+            <h2>{{ .title }}</h2>
+				    <div class="fh5co-text">
+						    <p>{{ .text }}</p>
+				    </div>
+            <img src={{ .img }}></img>
         </div>
-    </div>
     </article>
     {{end}}
 
     <script>layout()</script>
+    </div>
 </section> 
