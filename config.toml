@@ -55,19 +55,19 @@ theme                   = "hugo-elate-theme"
   [[params.intro.item]]
     button              = "About"
     description         = "The SFU Science frosh has a deep, storied history."
-    url                 = "#"
+    url                 = "about"
     icon                = "/images/Icon_Saturn.png"
 
   [[params.intro.item]]
     button              = "Itinerary"
     description         = "things are happen"
-    url                 = "#fh5co-services"
+    url                 = "timeline"
     icon                = "/images/Icon_Jupiter.png"
 
   [[params.intro.item]]
     button              = "Register"
     description         = "everyone else is coming, if you don't come you're probably a nobody"
-    url                 = "#"
+    url                 = "contact"
     icon                = "/images/Icon_Earth.png"
 
 # FAQ
