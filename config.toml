@@ -67,7 +67,7 @@ theme                   = "hugo-elate-theme"
   [[params.intro.item]]
     button              = "Register"
     description         = "everyone else is coming, if you don't come you're probably a nobody"
-    url                 = "contact"
+    url                 = "https://www.eventbrite.ca/e/sus-presents-sfu-science-frosh-2017-tickets-36949955311"
     icon                = "/images/Icon_Earth.png"
 
 # FAQ
@@ -114,9 +114,9 @@ theme                   = "hugo-elate-theme"
 
   # ?????
   [[params.time.item]]
-  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                 = "afoiafn"
-  time                  = "12:00"
+  text                  = "Froshees begin to arrive, and register."
+  title                 = "Sign-in"
+  time                  = "09:00"
   hasbadge              = true
   shade                 = true
 
@@ -125,17 +125,56 @@ theme                   = "hugo-elate-theme"
   shade                 = true
 
   [[params.time.item]]
-  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                 = "afoiafn"
-  time                  = "12:00"
+  text                  = "Debriefed for the days events"
+  title                 = "Opening Ceremony"
+  time                  = "10:15"
   hasbadge              = true
   shade                 = true
+
   [[params.time.item]]
-  text                  = "gaioenirgaoier nogiaenr ognaoierngoair fffffffff ffffffffff ffffffffff fffffffff fffffffff ffffffffffffff fffffffifffff ffffffffff ffffffffff fffffffff ffffffffffff ffffffff fkh"
-  title                 = "afoiafn"
-  time                  = "12:00"
+  text                  = "asdf"
+  title                 = "Scavenger Hunt"
+  time                  = "11:00"
   hasbadge              = true
   shade                 = true
+
+  [[params.time.item]]
+  text                  = "asdf"
+  title                 = "Lunch"
+  time                  = "13:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "asdf"
+  title                 = "Building Challenges"
+  time                  = "14:15"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "asdf"
+  title                 = "Capture The Lubed Watermelon"
+  time                  = "18:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "asdf"
+  title                 = "Dinner"
+  time                  = "21:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "asdf"
+  title                 = "DJ + Party"
+  time                  = "23:30"
+  hasbadge              = true
+  shade                 = true
+
+
+
 
   [params.services]
     enable              = false
