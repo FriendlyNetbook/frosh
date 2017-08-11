@@ -55,7 +55,7 @@ theme                   = "hugo-elate-theme"
   [[params.intro.item]]
     button              = "About"
     description         = "The SFU Science frosh has a deep, storied history."
-    url                 = "about"
+    url                 = "newabout"
     icon                = "/images/Icon_Saturn.png"
 
   [[params.intro.item]]
