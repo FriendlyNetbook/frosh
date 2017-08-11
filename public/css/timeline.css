@@ -1,0 +1,163 @@
+#fh5co-timeline .gradient {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  opacity: .9;
+  -webkit-backface-visibility: hidden;
+  background-color: #0D2747;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #4655AB), color-stop(1, #0B2545));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #4655AB 0%, #0B2545 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #4655AB 0%, #0B2545 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #4655AB 0%, #0B2545 100%);
+}
+    #fh5co-timeline {
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+    #fh5co-timeline article {
+      display: block;
+      position: relative;
+      float: left;
+      clear: left;
+      width: 50%;
+    }
+    #fh5co-timeline article.right {
+      float: right;
+      clear: right;  
+    }
+		#fh5co-timeline article div.content .fh5co-text > p{
+        align: right;
+		}
+		#fh5co-timeline article.right div.content .fh5co-text > p{
+        align: left;
+		}
+
+/* LINE */
+	  #fh5co-timeline:after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	  #fh5co-timeline:before {
+		content: " ";
+    position: absolute;
+    
+    top: 30px;
+		bottom: 30px;
+		left: 50%;
+		
+		width: 3px;
+    margin-left: -1.5px;
+		background-color: #DB4E91;
+	}
+
+
+/* CONTENT BOX */
+	  #fh5co-timeline article div.content{
+		position: relative; 
+ 		float: right;   
+    
+    width: 60%;   
+    padding: 10px;
+
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	}
+    #fh5co-timeline article.right div.content{
+       float: left;
+      
+       margin-right: 0; 
+       margin-left: 100px;      
+    }
+
+		#fh5co-timeline article figure, #fh5co-timeline article iframe, #fh5co-timeline article video{
+			width: 100%!important;
+      padding: 0!important;
+		}
+
+
+/* BADGE */
+	  #fh5co-timeline article .badge a {
+		text-decoration: none;
+		color: #fff;
+	}
+	  #fh5co-timeline article .badge {
+        background-color: transparent;
+    position: absolute;
+    top: 0px;
+		right: 10px;
+		z-index: 30; 
+    
+		width: 75px;
+		height: 50px;
+    
+		line-height: 50px;
+		font-size: 1.2em;
+		text-align: center;
+		
+		cursor: default;
+	}
+		#fh5co-timeline article.right .badge{
+			left: 10px;
+		}
+
+	  #fh5co-timeline article .badge:after{
+		content: ' ';
+		display: block;				
+		position: absolute;
+		top: 27px;
+		right: -20px;
+    z-index: 10;
+
+		width: 20px;
+		height: 1px;
+    
+		background: #DB4E91;
+		border: 2px solid #DB4E91;
+	}
+		#fh5co-timeline article.right > .badge:after{
+			left: -20px;
+		}
+    #fh5co-timeline .content > .fh5co-text {
+        position: relative;
+        z-index: 10;
+        color: #fff;
+        text-align:left;
+        margin: 5px 5px 0px 5px;
+    }
+
+    #fh5co-timeline .content h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+        text-align: left;
+        margin: 5px 5px 0px 5px;
+    }
+
+    #fh5co-timeline .content > .overlay {
+        background: #474747;
+        opacity: 0;
+        z-index: 9;
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    #fh5co-timeline .content:hover > .overlay, #fh5co-timeline .content:focus > .overlay {
+        opacity: 0.5;
+        z-index: 9;
+    }

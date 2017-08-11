@@ -5,7 +5,7 @@
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="index.html"><img src="/images/HomeButton.png" height="28"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/HomeButton.png" height="28"></a>
 
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -33,10 +33,10 @@
                     <li><a href="#" data-nav-section="blocks"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
 
-                    <li><a href="/" data-nav-section="aboot"><span>{{ with .Site.Params.navigation.aboot }}{{ . | markdownify }}{{ end }}</span></a></li>
                     {{ if .Site.Params.about.enable }}
                     <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li> 
                     {{ end }}
+                    <li><a href="/" data-nav-section="aboot"><span>{{ with .Site.Params.navigation.aboot }}{{ . | markdownify }}{{ end }}</span></a></li>
 
                     <li><a href="/" data-nav-section="sponsorship"><span>{{ with .Site.Params.navigation.sponsorship }}{{ . | markdownify }}{{ end }}</span></a></li>
 

@@ -46,7 +46,7 @@ theme                   = "hugo-elate-theme"
   [params.hero]
     title               = "test"
     subtitle            = ''
-    img                 = '/images/MainPage_Main.png'
+    img                 = 'images/MainPage_Main.png'
     parallax            = 0.4
 
   [params.intro]
@@ -56,19 +56,19 @@ theme                   = "hugo-elate-theme"
     button              = "About"
     description         = "The SFU Science frosh has a deep, storied history."
     url                 = "newabout"
-    icon                = "/images/Icon_Saturn.png"
+    icon                = "images/Icon_Saturn.png"
 
   [[params.intro.item]]
     button              = "Itinerary"
     description         = "things are happen"
     url                 = "timeline"
-    icon                = "/images/Icon_Jupiter.png"
+    icon                = "images/Icon_Jupiter.png"
 
   [[params.intro.item]]
     button              = "Register"
     description         = "everyone else is coming, if you don't come you're probably a nobody"
     url                 = "register"
-    icon                = "/images/Icon_Earth.png"
+    icon                = "images/Icon_Earth.png"
 
 # FAQ
   [[params.block.item]]
@@ -115,7 +115,7 @@ theme                   = "hugo-elate-theme"
   # ?????
   [[params.time.item]]
   image                 = true
-  img                   = "/images/star.png"
+  img                   = "images/star.png"
   shade                 = false
   hasbadge                 = false
   pad                      = "0%"
@@ -143,7 +143,7 @@ theme                   = "hugo-elate-theme"
 
   [[params.time.item]]
   image                 = true
-  img                   = "/images/star.png"
+  img                   = "images/star.png"
   shade                 = false
   hasbadge                 = false
   pad                      = "60%"
@@ -171,7 +171,7 @@ theme                   = "hugo-elate-theme"
 
   [[params.time.item]]
   image                 = true
-  img                   = "/images/star.png"
+  img                   = "images/star.png"
   shade                 = false
   hasbadge                 = false
   pad                      = "60%"
