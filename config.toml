@@ -52,28 +52,29 @@ theme                   = "hugo-elate-theme"
   [params.intro]
   img                   = 'GirlsTag.jpg'
 
-  [[params.intro.item]]
-    button              = "About"
-    description         = "The SFU Science frosh has a deep, storied history."
-    url                 = "newabout"
-    icon                = "images/Icon_Saturn.png"
+  # [[params.intro.item]]
+  #   button              = "About"
+  #   description         = "The SFU Science frosh has a deep, storied history."
+  #   url                 = "newabout"
+  #   icon                = "images/Icon_Saturn.png"
 
-  [[params.intro.item]]
-    button              = "Itinerary"
-    description         = "things are happen"
-    url                 = "timeline"
-    icon                = "images/Icon_Jupiter.png"
+  # [[params.intro.item]]
+  #   button              = "Itinerary"
+  #   description         = "things are happen"
+  #   url                 = "timeline"
+  #   icon                = "images/Icon_Jupiter.png"
 
-  [[params.intro.item]]
-    button              = "Register"
-    description         = "everyone else is coming, if you don't come you're probably a nobody"
-    url                 = "register"
-    icon                = "images/Icon_Earth.png"
+  # [[params.intro.item]]
+  #   button              = "Register"
+  #   description         = "everyone else is coming, if you don't come you're probably a nobody"
+  #   url                 = "register"
+  #   icon                = "images/Icon_Earth.png"
 
 # FAQ
   [[params.block.item]]
   description           = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
   title                 = "Why should I go to FROSH?"
+  img = "images/star.png"
 
   [[params.block.item]]
   description           = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
@@ -112,6 +113,12 @@ theme                   = "hugo-elate-theme"
   description          = "Tickets cost $40.00 and are available for purchase through Eventbrite via credit card or PayPal. Tickets are on sale between 12:00 August 14th - 18:00 September 15th."
   wide                 = false
 
+  [[params.pic]]
+
+  [[params.pic.item]]
+  img = "images/star.png"
+
+
   # ?????
   [[params.time.item]]
   image                 = true
@@ -143,10 +150,12 @@ theme                   = "hugo-elate-theme"
 
   [[params.time.item]]
   image                 = true
-  img                   = "images/star.png"
+  img                   = "images/frosh1.jpg"
   shade                 = false
   hasbadge                 = false
-  pad                      = "60%"
+  pad                      = "10%"
+  width                    = "20px"
+  height                    = "20px"
 
   [[params.time.item]]
   text                  = "asdf"
@@ -189,8 +198,6 @@ theme                   = "hugo-elate-theme"
   time                  = "23:30"
   hasbadge              = true
   shade                 = true
-
-
 
 
   [params.services]
@@ -251,7 +258,7 @@ theme                   = "hugo-elate-theme"
   [params.about]
     enable              = true
     title               = "Faculty Lunch Guests"
-    description         = "meet'em, greet'em, feel inadequate"
+    description         = "Meet them, Greet them, Feel Inadequate"
 
     [[params.about.item]]
       name              = "Natalia Kouzniak"
@@ -287,6 +294,7 @@ theme                   = "hugo-elate-theme"
       description       = ""
       img               = "images/fac/irina.jpg"
       alt               = "Nabyl"
+
 
 
   # About FROSH
@@ -349,6 +357,7 @@ theme                   = "hugo-elate-theme"
       alt               = "Image2"
       title             = "I’m a bit shy and don’t know if FROSH is for me."
       subtitle          = "We encourage you to only participate in the components you feel comfortable with. Team leaders will also be there to help you with any doubts you may have about the activities."
+
 
   # Contact section
   [params.contact]

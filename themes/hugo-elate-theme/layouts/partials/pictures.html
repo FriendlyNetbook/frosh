@@ -1,0 +1,20 @@
+<section id="fh5co-pictures" class="animated" data-section="pictures">
+    <div class="gradient" >
+		    <div class="container">
+            <div class="row row-bottom-padded-sm" ></div>
+            <h1 style="text-align: center; color: #fff">Frequently Asked Questions</h3>
+			      <div class="row row-bottom-padded-sm grid">
+				        {{ range .Site.Params.pictures.item }}
+				        <div class="grid-item">
+					          <div class="overlay"></div>
+                    <h2>{{ .title }}</h2>
+					          <div class="fh5co-text">
+						            <p>{{ .description }}</p>
+					          </div>
+				        </div>
+                {{end}}
+            </div>
+            <script>layout()</script>
+        </div>
+    </div>
+</section>
