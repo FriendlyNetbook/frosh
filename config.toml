@@ -46,7 +46,7 @@ theme                   = "hugo-elate-theme"
   [params.hero]
     title               = "test"
     subtitle            = ''
-    img                 = 'images/MainPage_Main.png'
+    img                 = 'images/Background_New-12.png'
     parallax            = 0.4
 
   [params.intro]

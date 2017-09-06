@@ -389,12 +389,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0D2747;
   /* IE9, iOS 3.2+ */
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
-  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0,#0090CF), color-stop(1,#4655AB));
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0,#eee), color-stop(1,#999));
   /* Android 2.3 */
-  background-image: -webkit-repeating-linear-gradient(top left,#0090CF 0%, #4655AB 100%);
+  background-image: -webkit-repeating-linear-gradient(top left,#eee 0%, #999 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right,#0090CF 0%, #4655AB 100%);
-  background-image: -ms-repeating-linear-gradient(top left, #0090CF  0%, #4655AB 100%);
+  background-image: repeating-linear-gradient(to bottom right,#eee 0%, #999 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #eee  0%, #999 100%);
 }
 #fh5co-tempit .text-wrap {
   height: 300px;
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  background-color: #DB4E91;
+  background-color: #999;
   color: #fff;
   overflow: hidden;
 }
@@ -1207,7 +1207,7 @@ h1, h2, h3, h4, h5, h6 {
   /* /\* IE10+ *\/ */
   /* background-image: repeating-linear-gradient(to bottom right, #4655AB 0%, #75D5FF 100%); */
   /* background-image: -ms-repeating-linear-gradient(top left, #4655AB 0%, #75D5FF 100%); */
-  background-color: #75D5FF;
+  background-color: #777;
   color: #fff;
 }
 #fh5co-contact .fh5co-contact-info {
@@ -1516,6 +1516,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 
 #map {
   width: 100%;
