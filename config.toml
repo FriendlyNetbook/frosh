@@ -126,8 +126,9 @@ theme                   = "hugo-elate-theme"
   shade                 = false
   hasbadge                 = false
   pad                      = "0%"
+
   [[params.time.item]]
-  text                  = "Froshees begin to arrive, and register."
+  text                  = "Froshees begin to arrive and register; get your swag bags!"
   title                 = "Sign-in"
   time                  = "09:00"
   hasbadge              = true
@@ -135,46 +136,16 @@ theme                   = "hugo-elate-theme"
 
 
   [[params.time.item]]
-  text                  = "Debriefed for the days events"
+  text                  = "Debriefed for the days events."
   title                 = "Opening Ceremony"
   time                  = "10:15"
   hasbadge              = true
   shade                 = true
 
   [[params.time.item]]
-  text                  = "asdf"
-  title                 = "Scavenger Hunt"
+  text                  = "Embark on a hunt for lost items around campus."
+  title                 = "Recovery Mission"
   time                  = "11:00"
-  hasbadge              = true
-  shade                 = true
-
-  [[params.time.item]]
-  image                 = true
-  img                   = "images/frosh1.jpg"
-  shade                 = false
-  hasbadge                 = false
-  pad                      = "10%"
-  width                    = "20px"
-  height                    = "20px"
-
-  [[params.time.item]]
-  text                  = "asdf"
-  title                 = "Lunch"
-  time                  = "13:00"
-  hasbadge              = true
-  shade                 = true
-
-  [[params.time.item]]
-  text                  = "asdf"
-  title                 = "Building Challenges"
-  time                  = "14:15"
-  hasbadge              = true
-  shade                 = true
-
-  [[params.time.item]]
-  text                  = "asdf"
-  title                 = "Capture The Lubed Watermelon"
-  time                  = "18:00"
   hasbadge              = true
   shade                 = true
 
@@ -186,18 +157,83 @@ theme                   = "hugo-elate-theme"
   pad                      = "60%"
 
   [[params.time.item]]
-  text                  = "asdf"
-  title                 = "Dinner"
+  text                  = "Grab a slice of pizza and mingle with some of the faculty members."
+  title                 = "Lunch"
+  time                  = "13:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "Compete against other teams in an effort to steal their slimey, slippery egg while trying to protect your own!"
+  title                 = "Capture the Alien Egg"
+  time                  = "14:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "Settle down before the night's festivities with a meal and some chill group games."
+  title                 = "Dinner and Games"
+  time                  = "17:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  image                 = true
+  img                   = "images/star.png"
+  shade                 = false
+  hasbadge              = false
+  pad                   = "60%"
+
+  [[params.time.item]]
+  text                  = "Paint yourself and your friends (and enemies...) with fluorescent paint and immortalize it in a photobooth."
+  title                 = "Body Paint + Photobooth"
   time                  = "21:00"
   hasbadge              = true
   shade                 = true
 
   [[params.time.item]]
-  text                  = "asdf"
-  title                 = "DJ + Party"
-  time                  = "23:30"
+  image                 = true
+  img                   = "images/star.png"
+  shade                 = false
+  hasbadge              = false
+  pad                   = "60%"
+
+  [[params.time.item]]
+  text                  = "Dance to a live DJ for hours into the night."
+  title                 = "Galaxy Dance"
+  time                  = "22:30"
   hasbadge              = true
   shade                 = true
+
+  [[params.time.item]]
+  text                  = "Challenge your creativity by creating a structure with limited resources better than anyone else."
+  title                 = "Building Challenge"
+  time                  = "02:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  text                  = "??????"
+  title                 = "Night Escapades"
+  time                  = "03:00"
+  hasbadge              = true
+  shade                 = true
+
+  [[params.time.item]]
+  image                 = true
+  img                   = "images/star.png"
+  shade                 = false
+  hasbadge              = false
+  pad                   = "35%"
+
+
+  [[params.time.item]]
+  text                  = "Wrap up your experience with a meal and a closing ceremony where the awards and the frosh cup will be presented to the victorious house."
+  title                 = "Breakfast + Closing Ceremonies"
+  time                  = "09:00"
+  hasbadge              = true
+  shade                 = true
+
 
 
   [params.services]
