@@ -234,7 +234,10 @@ theme                   = "hugo-elate-theme"
   hasbadge              = true
   shade                 = true
 
-
+  [[params.house.house]]
+  title           = "gryffindor"
+  shortText = "small"
+  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
 
   [params.services]
     enable              = false
