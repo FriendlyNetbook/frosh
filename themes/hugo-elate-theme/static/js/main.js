@@ -17,9 +17,9 @@
 	};
 
 	// Parallax
-	var parallax = function() {
-		$(window).stellar();
-	};
+	// var parallax = function() {
+	// 	$(window).stellar();
+	// };
 
 
 
@@ -495,7 +495,7 @@
 	// Document on load.
 	$(function(){
 
-		parallax();
+		// parallax();
 
 		burgerMenu();
 
