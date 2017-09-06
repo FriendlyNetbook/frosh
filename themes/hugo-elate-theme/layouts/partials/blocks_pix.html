@@ -1,0 +1,16 @@
+<section id="fh5co-blocks_pix" class="animated" data-section="blocks_pix">
+    <div class="gradient" >
+	<div class="container">
+            <div class="row row-bottom-padded-sm" ></div>
+		<div class="row row-bottom-padded-sm grid">
+		    {{ range .Site.Params.pictureblocks.item }}
+		        <div class="grid-item">
+                                <img src={{.img}} ></img>
+		        </div>
+                     {{end}}
+                </div>
+            <script>layout()</script>
+        </div>
+    </div>
+</section>
+
