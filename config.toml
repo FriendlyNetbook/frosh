@@ -26,6 +26,7 @@ theme                   = "hugo-elate-theme"
     sponsorship         = "Sponsors"
     blocks              = "FAQ"
     timeline            = "Itinerary"
+    house               = "Factions"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -74,7 +75,6 @@ theme                   = "hugo-elate-theme"
   [[params.block.item]]
   description           = "Start your university career on the right foot. Spend 24 hours with other first year students excited about the university life in a casual and light atmosphere, get familiar with the SFU campus, create iconic memories and learn how SFU likes to have fun!"
   title                 = "Why should I go to FROSH?"
-  img = "images/star.png"
 
   [[params.block.item]]
   description           = "All incoming SFU Science students, including first year and transfer students, are encouraged to come. Come out to meet your Science Family!"
@@ -191,12 +191,6 @@ theme                   = "hugo-elate-theme"
   hasbadge              = true
   shade                 = true
 
-  [[params.time.item]]
-  image                 = true
-  img                   = "images/star.png"
-  shade                 = false
-  hasbadge              = false
-  pad                   = "60%"
 
   [[params.time.item]]
   text                  = "Dance to a live DJ for hours into the night."
@@ -253,6 +247,117 @@ theme                   = "hugo-elate-theme"
   shortText = "small"
   hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
   img                   = "images/Portrait_Newton.png"
+
+  [[params.show.slide]]
+  num = 1
+  sum = 16 
+  img                   = "images/slideshow/0001.jpg"
+  caption = "this is a caption"
+
+  [[params.show.slide]]
+  num = 2
+  sum = 16
+  img                   = "images/slideshow/0002.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 3
+  sum =  16
+  img                   = "images/slideshow/0003.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 4
+  sum = 16 
+  img                   = "images/slideshow/0004.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 5
+  sum = 16
+  img                   = "images/slideshow/0005.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 6
+  sum = 16
+  img                   = "images/slideshow/0006.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 7
+  sum = 16 
+  img                   = "images/slideshow/0007.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 8
+  sum = 16
+  img                   = "images/slideshow/0008.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 9
+  sum = 16 
+  img                   = "images/slideshow/0009.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 10
+  sum = 16
+  img                   = "images/slideshow/0010.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 11
+  sum = 16
+  img                   = "images/slideshow/0011.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 12
+  sum = 16
+  img                   = "images/slideshow/0012.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 13
+  sum = 16
+  img                   = "images/slideshow/0013.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 14
+  sum = 16
+  img                   = "images/slideshow/0014.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 15
+  sum = 16
+  img                   = "images/slideshow/0015.jpg"
+  caption = "this is a caption"
+
+
+  [[params.show.slide]]
+  num = 16
+  sum = 16
+  img                   = "images/slideshow/0016.jpg"
+  caption = "this is a caption"
+
 
   [params.services]
     enable              = false
