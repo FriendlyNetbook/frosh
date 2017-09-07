@@ -236,8 +236,23 @@ theme                   = "hugo-elate-theme"
 
   [[params.house.house]]
   title           = "gryffindor"
+  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  img                   = "images/Portrait_Curie.png"
+  [[params.house.house]]
+  title           = "gryffindor"
   shortText = "small"
   hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  img                   = "images/Portrait_Einstein.png"
+  [[params.house.house]]
+  title           = "gryffindor"
+  shortText = "small"
+  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  img                   = "images/Portrait_Darwin.png"
+  [[params.house.house]]
+  title           = "gryffindor"
+  shortText = "small"
+  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  img                   = "images/Portrait_Newton.png"
 
   [params.services]
     enable              = false

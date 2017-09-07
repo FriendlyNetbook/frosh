@@ -490,9 +490,6 @@
 
 
 	
-	
-
-	// Document on load.
 	$(function(){
 
 		// parallax();
