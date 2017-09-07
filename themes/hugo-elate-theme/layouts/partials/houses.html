@@ -1,0 +1,48 @@
+<section id="fh5co-house" data-section="house">
+		<div class="gradient"></div>
+    <div class="row row-bottom-padded-sm" >
+        <h2 class="h2">Frosh Factions</h2>
+    </div>
+		<div class="row row-bottom-padded-sm grid">
+		{{ range .Site.Params.house.house }}
+    <article>
+        <div class="content grid-item" style="background-image: url({{ .img }})">
+            <h2 class="h2">{{ .title }}</h2>
+				    <div class="overlay"></div>
+				    <div class="hiddenText hide hidetoggle">
+						    <p>{{ .hiddenText }}</p>
+				    </div>
+        </div>
+    </article>
+    {{ end }}
+    </div>
+    <script>
+// external JS: masonry.pkgd.js
+
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: 160
+});
+var test = null;
+$grid.on( 'click', '.grid-item', function() {
+         // change size of item via class
+         test = this;
+         $( this ).toggleClass('grid-item--gigante');
+for (var i = 0; i < this.children.length; i++) {
+    if (this.children[i].classList.contains("hidetoggle")) {
+      this.children[i].classList.toggle('hide');
+      break;
+    } 
+}
+ 
+  // trigger layout
+  $grid.masonry();
+});
+
+$grid.on( 'layoutComplete', function( event, laidOutItems ) {
+  console.log( 'Masonry layout complete with ' + laidOutItems.length + ' items' );
+});
+
+
+    </script>
+</section> 
