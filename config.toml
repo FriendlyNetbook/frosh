@@ -27,6 +27,7 @@ theme                   = "hugo-elate-theme"
     blocks              = "FAQ"
     timeline            = "Itinerary"
     house               = "Factions"
+    show                = "Photos" 
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -229,24 +230,28 @@ theme                   = "hugo-elate-theme"
   shade                 = true
 
   [[params.house.house]]
-  title           = "gryffindor"
-  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  title           = "CURIE"
+  hiddenText="You will represent the queen of radioactivity. This fierce woman is the only person to have EVER won a Nobel Prize in two different sciences!! Madame Curie died a slow an painful death (due to radioactive poisoning) in the name of science. HOUSE OF CURRIE, bring honour to her name by finding your inner INTENSITY and RELENTLESSNESS. "
   img                   = "images/Portrait_Curie.png"
+
   [[params.house.house]]
-  title           = "gryffindor"
+  title           = "Einstein"
   shortText = "small"
-  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+  hiddenText="You will represent an academic of the highest caliber. His general and special theory of relativity shook the world of physics. With a relatively controversial love life and mind blowing contributions to physics. HOUSE OF EINSTEIN, we call on you to echo his confident WIT and CHARM. "
+
+
   img                   = "images/Portrait_Einstein.png"
   [[params.house.house]]
-  title           = "gryffindor"
+  title           = "Newton"
   shortText = "small"
-  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
-  img                   = "images/Portrait_Darwin.png"
-  [[params.house.house]]
-  title           = "gryffindor"
-  shortText = "small"
-  hiddenText="ofiaewnnf iaoewnfoieanfioaewnfoiaef niaoewfjaiowenfoaiwef"
+hiddenText="You will represent a cerebric individual that devoted his life to the pursuit of knowledge, sometimes forgetting to eat for days. His formulation of universal gravitation grounded scientists before him. His love of apples and invention of calculus set the world of science in motion. HOUSE OF NEWTON, find your inner GENIUS and DEDICATION."
+
   img                   = "images/Portrait_Newton.png"
+  [[params.house.house]]
+  title           = "Darwin"
+  shortText = "small"
+  hiddenText="You will represent an adventurer and naturalist. This brave scientist not only established the theory of evolution and natural selection, but his beard challenged even the mightiest of the vikings. HOUSE OF DARWIN, find the explorer within with TENACITY and UNYIELDING FERVOR."
+  img                   = "images/Portrait_Darwin.png"
 
   [[params.show.slide]]
   num = 1
@@ -454,6 +459,12 @@ theme                   = "hugo-elate-theme"
       img               = "images/fac/irina.jpg"
       alt               = "Nabyl"
 
+    [[params.about.item1]]
+      name              = "David Broun"
+      position          = "Physics Faculty"
+      description       = ""
+      img               = "images/fac/dave.jpg"
+      alt               = "Nabyl"
 
 
   # About FROSH
