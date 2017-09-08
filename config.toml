@@ -363,6 +363,10 @@ hiddenText="You will represent a cerebric individual that devoted his life to th
   img                   = "images/slideshow/0016.jpg"
   caption = "this is a caption"
 
+  [[params.leaders.leader]]
+  title           = ""
+  hiddenText = ""
+  img                   = ""
 
   [params.services]
     enable              = false
