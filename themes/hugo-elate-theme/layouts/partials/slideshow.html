@@ -1,0 +1,54 @@
+<section id="fh5co-show" class="animated" data-section="show">
+		<div class="container">
+        <div class="row row-bottom-padded-sm" ></div>
+			  <div class="row row-bottom-padded-sm">
+            <div class="slideshow-container">
+		            {{ range .Site.Params.show.slide }}
+                <div class="slides fade">
+                    <div class="numbertext">"{{ .num }}/{{ .sum }}"</div>
+                    <img src="{{ .img }}" style="width:100%">
+                    <div class="text">{{ .caption }}</div>
+                </div>
+                {{ end }}
+                <a class="prev" onclick="plusSlides(-1)"></a>
+                <a class="next" onclick="plusSlides(1)"></a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+		            {{ range .Site.Params.show.slide }}
+                <span class="dot" onclick="currentSlide({{ .num }})"></span>
+                {{ end }}
+            </div>
+        </div>
+        <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.opacity = 1; 
+  dots[slideIndex-1].className += " active";
+}
+        </script>
+    </div>
+</section>

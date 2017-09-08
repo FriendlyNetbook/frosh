@@ -1,0 +1,63 @@
+<section id="fh5co-leaders" data-section="leaders">
+		<div class="gradient"></div>
+		<div class="row row-bottom-padded-sm grid"></div>
+            <h1 style="text-align: center; color: #444">Factions</h1>
+		<div class="row row-bottom-padded-sm grid">
+		    {{ range .Site.Params.leaders.leader }}
+        <article>
+            <div class="content grid-item">
+                <img class="image" src="{{ .img }}" style="position: center" ></img>
+				        <div class="overlay"></div>
+				        <div class="hi hide hidetoggle">
+						        {{ .title }}
+				        </div>
+				        <div class="hiddenText hide hidetoggle">
+						        <p>{{ .hiddenText }}</p>
+				        </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+    <script>
+
+     // external JS: masonry.pkgd.js
+
+     var $grid = $('.grid').masonry({
+         itemSelector: '.grid-item',
+         columnWidth: 160
+     });
+     var test = null;
+     var no = null;
+     $grid.on( 'click', '.grid-item', function() {
+         test = $(this.parentElement.parentElement).find(".grid-item");
+         no = this;
+         for (var i = 0; i < test.length; i++){
+             if (test[i]!=this) {
+             for (var j = 0; j < test[i].children.length; j++) {
+                 if (test[i].children[j].classList.contains("hidetoggle")) {
+                     test[i].children[j].classList.add('hide');
+                 }
+        }
+                                test[i].classList.remove('grid-item--gigante');
+             }
+         }
+
+                     // change size of item via class
+                     $( this ).toggleClass('grid-item--gigante');
+                     for (var i = 0; i < this.children.length; i++) {
+                         if (this.children[i].classList.contains("hidetoggle")) {
+                             this.children[i].classList.toggle('hide');
+                         }
+                     }
+
+                     // trigger layout
+                     $grid.masonry();
+     });
+
+         $grid.on( 'layoutComplete', function( event, laidOutItems ) {
+             console.log( 'Masonry layout complete with ' + laidOutItems.length + ' items' );
+         });
+
+
+    </script>
+</section> 
